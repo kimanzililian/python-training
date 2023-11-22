@@ -23,21 +23,21 @@
 # # Take three inputs from a user, separately. Print the largest of the numbers.
 # #     Hint: Determine what type of data is taken in as input
 
-# input1=int(input("enter input1:"))
-# input2=int(input("enter input2:"))
-# input3=int(input("enter input3:"))
-# if(input1>input2 and input1>input3):
-#             print("f{input1} is the largest")
-# elif(input2>input1 and input2>input3):
-#             print("f{input2} is the largest")
-# else:
-#            print("f{input3} is the largest")
+input1=int(input("enter input1:"))
+input2=int(input("enter input2:"))
+input3=int(input("enter input3:"))
+if(input1>input2 and input1>input3):
+            print("f{input1} is the largest")
+elif(input2>input1 and input2>input3):
+            print("f{input2} is the largest")
+else:
+           print("f{input3} is the largest")
 
 
 # Take as input from a user the temperature if the temperature is above 30°C display “The temperature is too high”, otherwise display “Normal temperature”
 
-temp=int(input("enter temp:"))
-if(temp>30):
-      print("the temperature is too high")
-else:
-      print("normal temperature")
+# temp=int(input("enter temp:"))
+# if(temp>30):
+#       print("the temperature is too high")
+# else:
+#       print("normal temperature")
