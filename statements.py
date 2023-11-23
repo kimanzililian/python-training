@@ -1,24 +1,24 @@
-marks=30
-if(marks>=60):
-    print("A")
-elif(marks>=50):
-    print("B")
-elif(marks>=40):
-    print("C")
-else:
-    print("fail")
+# marks=30
+# if(marks>=60):
+#     print("A")
+# elif(marks>=50):
+#     print("B")
+# elif(marks>=40):
+#     print("C")
+# else:
+#     print("fail")
 
-    average_marks=int(input("enter marks:"))
-    if(average_marks>=70):
-        print("A")
-    elif(average_marks>=60 and average_marks<70):
-        print("B")
-    elif(average_marks>=50 and average_marks<60):
-        print("C")
-    elif(average_marks>=40 and average_marks<50):
-        print("D")
-    else:
-        print("E")
+#     average_marks=int(input("enter marks:"))
+#     if(average_marks>=70):
+#         print("A")
+#     elif(average_marks>=60 and average_marks<70):
+#         print("B")
+#     elif(average_marks>=50 and average_marks<60):
+#         print("C")
+#     elif(average_marks>=40 and average_marks<50):
+#         print("D")
+#     else:
+#         print("E")
 
 # # Take three inputs from a user, separately. Print the largest of the numbers.
 # #     Hint: Determine what type of data is taken in as input
@@ -36,8 +36,10 @@ else:
 
 # # Take as input from a user the temperature if the temperature is above 30°C display “The temperature is too high”, otherwise display “Normal temperature”
 
-# # temp=int(input("enter temp:"))
-# # if(temp>30):
-# #       print("the temperature is too high")
-# # else:
-# #       print("normal temperature")
+temp=int(input("enter temp:"))
+if(temp>30):
+     print("the temperature is too high")
+elif(temp<15.5):
+      print("the temperature is too low")
+else:
+      print("normal temperature")

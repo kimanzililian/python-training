@@ -19,5 +19,6 @@ print(trainees)
 
 # Remove John and Mary from the list.
 trainees = ["John", [2, ["James","Mary"]]]
-trainees.remove()
+del(trainees)
+print(trainees)
 
